@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+.video-player {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.video-player .tray {
+  width: 150%;
+  height: 100vh;
+  position: relative;
+  right: 25%;
+}
+
+.video-player .tray .slide {
+  width: 33.333%;
+  float: left;
+  margin: 0;
+}
+
+.video-player .tray .slide:first-child {
+  margin: 0  0 0 0;
+}
+
+.video-player .tray .slide video {
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  background: black;
+}
+
+
+.video-player .prev, .video-player .next {
+  position: absolute;
+  top: 49%;
+}
+.video-player .prev { left: 3%; }
+.video-player .next { right: 3%; }

@@ -11,9 +11,12 @@ body {
 
 .video-player .tray {
   width: 150%;
+  /*width:9999px;*/
   height: 100vh;
   position: relative;
-  right: 0;
+  left: -25%;
+  /*right: 25%;*/
+  /*transition: all 1s;*/
 }
 
 .video-player .tray .slide {
